@@ -1,1 +1,1 @@
-# Simle-OTT-Platform
+# Simple-OTT-Platform
