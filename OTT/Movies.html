@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>Adrivit 365 Demo Website-Home</title>
+	<link rel="stylesheet" href="CSS/css2.css">
+</head>
+<body>
+		<header>
+			<a href="Home.html"><img id="logo" alt="365logo" src="Images/365logo.jpg" width="50"></a>
+		<nav>
+			<a href="">Movies</a>
+			<a href="">TV Series</a>
+			<a href="">Audio</a>
+			</nav>
+	</header>
+	<div class="slideshow">
+		<img id="slider" src="Images/abc6.jpg">
+	</div>
+		<button class="previous" onclick="prevBtnEvent()">&#8249;</button>
+		<button class="next" onclick="nextBtnEvent()">&#8250;</button>
+		<button class="search"></button>
+		<div class="menu">
+			<button id="menu-button">Genre&ensp;&ensp;&#9662;</button>
+				<div class="dropdown-menu">
+					<span onclick="NameChange('All')">All</span>
+			        <span onclick="NameChange('Action')">Action</b></span>
+			        <span onclick="NameChange('Drama')">Drama</span>
+			        <span onclick="NameChange('Sci-Fi')">Sci-Fi</span>
+				</div>
+		</div>
+		<input id="search" type="text" onkeyup="SearchOperation()" placeholder="Search your favourite movie title">
+	<div class="lists">
+		<table id="myTable">
+			<tr>
+				<td id="td1" ><Section id="text"><b>Haider</b><br>Indian crime tragedy film.</Section></td>
+				<td id="td2" class="action"><Section id="text"><b>Dream 2</b><br>Thriller, Mystery & Comedy</Section></td>
+				<td id="td3" class="action"><Section id="text"><b>Batman</b><br> A Marvel Comics superhero team.</Section></td>
+				<td id="td4" class="action"><Section id="text"><b>Monster Manav</b><br>Japanese manga series written by Tsugumi.</Section></td>
+				<td id="td5" class="action"><Section id="text"><b>Kill Bill</b><br>2003 American martial arts film.</Section</td>
+				<td id="td6" class="action"><Section id="text"><b>Rowdy</b><br>Indian action drama film.</td>
+			</tr>
+			<tr>
+				<td id="td7" class="drama"><Section id="text"><b>Agnipaath</b><br>Indian crime tragedy film.</Section></td>
+				<td id="td8" class="drama"><Section id="text"><b>Ankhein</b><br>Thriller, Mystery & Comedy .</Section></td>
+				<td id="td9" class="drama"><Section id="text"><b>Guide</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td10" class="drama"><Section id="text"><b>Deewar</b><br>2016 ‧ Fantasy/Science Fiction.</Section></td>
+				<td id="td11" class="drama"><Section id="text"><b>Sholay</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td12" class="drama"><Section id="text"><b>K3G</b><br>A Marvel Comics superhero team.</Section></td>
+			</tr>
+			<tr>
+				<td id="td13" class="drama"><Section id="text"><b>Shaurya</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td14" class="drama"><Section id="text"><b>Cheeni Kam</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td15" class="drama"><Section id="text"><b>Ishq Vishq</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td16" class="drama"><Section id="text"><b>Padmaavat></b>A Marvel Comics superhero team.<br>South Korean Entertainment.</Section></td>
+				<td id="td17" class="drama"><Section id="text"><b>Kai Po Che</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td18" class="drama"><Section id="text"><b>Raabta</b><br>A Marvel Comics superhero team.</Section></td>
+			</tr>
+			<tr>
+				<td id="td19" class="sci-fi"><Section id="text"><b>Interstellar</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td20" class="sci-fi"><Section id="text"><b>Star Wars</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td21" class="sci-fi"><Section id="text"><b>Thor</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td22" class="sci-fi"><Section id="text"><b>Captain America</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td23" class="sci-fi"><Section id="text"><b>X-Men</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td24" class="sci-fi"><Section id="text"><b>Black Widow</b><br>A Marvel Comics superhero team.</Section></td>
+			</tr>
+			<tr>
+				<td id="td25" class="sci-fi"><Section id="text"><b>Iron-Man</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td26" class="sci-fi"><Section id="text"><b>Hulk</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td27" class="sci-fi"><Section id="text"><b>Captain Marvel</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td28" class="sci-fi"><Section id="text"><b>Wonder Woman</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td29" class="sci-fi"><Section id="text"><b>Batwoman</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td30" class="sci-fi"><Section id="text"><b>Batman</b><br>A Marvel Comics superhero team.</Section></td>
+			</tr>
+			<tr>
+				<td id="td31" class="sci-fi"><Section id="text"><b>Superman</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td32" class="sci-fi"><Section id="text"><b>Superwoman</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td33" class="sci-fi"><Section id="text"><b>Doctor Strange</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td34" class="sci-fi"><Section id="text"><b>Mars</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td35" class="sci-fi"><Section id="text"><b>Gravity</b><br>A Marvel Comics superhero team.</Section></td>
+				<td id="td36" class="sci-fi"><Section id="text"><b>Martian</b><br>A Marvel Comics superhero team.</Section></td>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		<a href="Home.html"><img id="logo" alt="365logo" src="Images/365logo.jpg" width="50"></a><div id="foot">Powered by 365 Entertainment Portal 2019. All Rights Reserved.</div>
+	</footer> 
+	<script src="JS/js2.js"></script>
+</body>
+</html>

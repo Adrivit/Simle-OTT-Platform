@@ -1,0 +1,352 @@
+body{
+    background-color:rgb(0, 0, 0);
+    margin: 0%;
+}
+header,footer {
+    width: 100%;
+    overflow: hidden;
+	background: linear-gradient(to right,rgb(219, 169, 3),rgb(248, 216, 109),rgb(206, 241, 240),rgb(201, 228, 250));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	overflow: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.menu{
+    display:inline-block;
+}
+
+#menu-button{
+    position: relative;
+    float: left;
+    width: 155px;
+    height: 40px;
+    background-color: rgb(255, 238, 0);
+    margin-top: 20px;
+    margin-left: -11px;
+    border: solid 2px black;
+    border-radius: 6px;
+    font-family: 'Blippo', 'fantasy';
+    font-size: 16px;
+    font-weight:bold;
+}
+.dropdown-menu{
+    margin-top: 61px;
+    display: none;
+    position: absolute;
+    
+}
+span{
+    margin-left:-8.9px;
+    font-family: 'Blippo', 'fantasy';
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left:10px ;
+    display: block;
+    background-color:white;
+    width: 141px;
+    height: 15px;
+    border: none;
+    font-weight:bold;
+}
+.dropdown-menu span:hover{
+   background-color:rgb(255, 238, 0);
+}
+.menu:hover .dropdown-menu
+{
+    display: block;
+}
+
+.menu:hover .menu-button
+{
+    background-color:rgb(255, 238, 0);;
+}
+
+footer{
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+#foot{
+    margin-top: 20px;
+    margin-right: 990px;
+    float: right;
+}
+
+nav{
+    float: left;
+    padding-top: 22px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+nav a{
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a:hover{
+    color:gray
+}
+
+#dropdown:hover{
+    color: #ddd;
+    display: block;
+}
+
+#logo
+{
+    border-radius:7px;
+    float:left;
+    margin-top: 9px;
+    margin-left: 10px;
+    width: 60px;
+    box-shadow: 0px 7px 20px -5px black
+}
+
+.lists
+{
+    margin-top: 5%;
+    margin-left: 2.2%;
+    margin-bottom: 2%;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.next:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+  }
+
+.previous:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+  }
+  
+.previous {
+    color: white;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    transform: translate(0%,-530%);
+    border: none;
+    font-size: 300%;
+    width: 50px;
+    height:70px;
+    transition-duration: 0.7s;
+    animation: linear;
+    
+  }
+.next {
+    color: white;
+    float: right;
+    margin-right:6.6%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    position: relative;
+    transform: translate(0%,-530%);
+    border: none;
+    font-size: 300%;
+    width: 50px;
+    height:70px;
+    transition-duration: 0.7s;
+    animation: linear;
+  }
+
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:-50px ;
+    float:right;
+    text-align: center;
+    width: 72%;
+    height: 30px;
+    background-color:rgb(255, 238, 0);
+    border-radius:3px;
+    border: 2px solid black;
+    margin-right:3% ;
+    margin-left: 20%;
+    outline: black solid 1px;
+    outline-offset:-4px ;
+}
+.search
+{
+    border: none;
+    float: right;
+    width:22px;
+    height: 22px;
+    margin-top: 27px;
+    margin-right: -95px;
+    position: relative;
+    background-image: url("../Images/search.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: transparent;
+}
+
+select{
+    margin-top:20px ;
+    float: left;
+    text-align: center;
+    width: 10%;
+    height: 36px;
+    background-color:rgb(255, 238, 0);
+    border-radius:5px;
+    border: 2px double black;
+}
+table{
+    margin-top: -50px;
+}
+td{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:60%;
+    width: 210px;
+    height: 198px;
+    border: 6px solid black;
+    display: inline-block;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+#text{
+    margin-top:145px ;
+    padding-left:12px;
+    padding-right:12px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#td1{
+    background-image: url("../Images/nano1.jpg");
+}
+#td2{
+    background-image: url("../Images/nano2.jpg");
+}
+#td3{
+    background-image: url("../Images/nano3.jpg");
+}
+#td4{
+    background-image: url("../Images/nano4.jpg");
+}
+#td5{
+    background-image: url("../Images/nano5.jpg");
+}
+#td6{
+    background-image: url("../Images/nano6.jpg");
+}
+#td7{
+    background-image: url("../Images/nano7.jpg");
+}
+#td8{
+    background-image: url("../Images/nano8.jpg");
+}
+#td9{
+    background-image: url("../Images/nano9.jpg");
+}
+#td10{
+    background-image: url("../Images/nano10.jpg");
+}
+#td11{
+    background-image: url("../Images/nano11.jpg");
+}
+#td12{
+    background-image: url("../Images/nano12.jpg");
+}
+#td13{
+    background-image: url("../Images/nano13.jpg");
+}
+#td14{
+    background-image: url("../Images/nano14.jpg");
+}
+#td15{
+    background-image: url("../Images/nano15.jpg");
+}
+#td16{
+    background-image: url("../Images/nano16.jpg");
+}
+#td17{
+    background-image: url("../Images/nano17.jpg");
+}
+#td18{
+    background-image: url("../Images/nano18.jpg");
+}
+#td19{
+    background-image: url("../Images/nano19.jpg");
+}
+#td20{
+    background-image: url("../Images/nano20.jpg");
+}
+#td21{
+    background-image: url("../Images/nano21.jpg");
+}
+#td22{
+    background-image: url("../Images/nano22.jpg");
+}
+#td23{
+    background-image: url("../Images/nano23.jpg");
+}
+#td24{
+    background-image: url("../Images/nano24.jpg");
+}
+#td25{
+    background-image: url("../Images/nano25.jpg");
+}
+#td26{
+    background-image: url("../Images/nano26.jpg");
+}
+#td27{
+    background-image: url("../Images/nano27.jpg");
+}
+#td28{
+    background-image: url("../Images/nano28.jpg");
+}
+#td29{
+    background-image: url("../Images/nano29.jpg");
+}
+#td30{
+    background-image: url("../Images/nano30.jpg");
+}
+#td31{
+    background-image: url("../Images/nano31.jpg");
+}
+#td32{
+    background-image: url("../Images/nano32.jpg");
+}
+#td33{
+    background-image: url("../Images/nano33.jpg");
+}
+#td34{
+    background-image: url("../Images/nano34.jpg");
+}
+#td35{
+    background-image: url("../Images/nano35.jpg");
+}
+#td36{
+    background-image: url("../Images/nano36.jpg");
+}
